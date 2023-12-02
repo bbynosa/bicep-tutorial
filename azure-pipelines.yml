@@ -19,6 +19,6 @@ steps:
       resourceGroupName: "myBicepRg"
       location: "Central US"
       templateLocation: "Linked artifact"
-      csmFileLink: "./main.bicep"
+      csmFileLink: "main.bicep"
       deploymentMode: "Incremental"
       deploymentName: "DeployPipelineTemplate"
