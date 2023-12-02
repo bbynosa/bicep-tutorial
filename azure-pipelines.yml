@@ -9,7 +9,7 @@ trigger:
 pool: aws-todoistclonedev-useast1-ubuntu
 
 steps:
-  - script: bicep --version
+  # - script: bicep --version
   - task: AzureResourceManagerTemplateDeployment@3
     inputs:
       deploymentScope: "Resource Group"
